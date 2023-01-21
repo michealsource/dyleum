@@ -1,0 +1,26 @@
+.takeContainer {
+    background-color: #000F19;
+}
+
+.tokenomicsBg {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+}
+
+.tokenomicsBgMobile {
+    display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .tokenomicsBg {
+        display: none;
+    }
+
+    .tokenomicsBgMobile {
+        display: block;
+        width: 100%;
+    }
+}

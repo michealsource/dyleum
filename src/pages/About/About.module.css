@@ -1,0 +1,57 @@
+.aboutContainer {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+
+.aboutImg {
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+}
+
+.aboutContent h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #41C19E;
+}
+
+.aboutContent p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D8CFCF;
+    margin-top: 20px;
+}
+
+.straightLine {
+    height: 1px;
+    background-color: #9C8E8E;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.marginTop {
+    margin-top: 117px;
+}
+
+.aboutImg2 {
+    width: 400px;
+    height: 400px;
+}
+
+.aboutImg3 {
+    width: 450px;
+    height: 300px;
+}
+
+.missionSection {
+    width: 100%;
+    margin-top: 131px;
+    display: inline-block;
+}

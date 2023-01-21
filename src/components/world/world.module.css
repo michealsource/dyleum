@@ -1,0 +1,142 @@
+.wordContainer {
+    width: 100%;
+    /* max-width: 1100px; */
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-image: url('../../assets/images/bgcircls.png');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.wordImg {
+    width: 100%;
+    max-width: 599px;
+    height: 263px;
+
+}
+
+.headerBox {
+    display: flex;
+    /* width: 190px; */
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.boxCard {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.0165) 100%);
+    border-radius: 13px;
+    padding: 15px;
+    margin-bottom: 50px;
+    height: 210px;
+}
+
+.BoxText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #A7ADDE;
+    line-height: 30px;
+    margin-top: 18px;
+}
+
+.headTitle {
+    font-weight: 400;
+    font-size: 25px;
+    color: #41C19E;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.wordImgContainer {
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.0132) 100%);
+    border-radius: 13px
+}
+
+.wordImgContainer h4 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: -0.43743px;
+    text-transform: capitalize;
+
+    color: #41C19E;
+}
+
+.wordImgContainer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.43743px;
+    color: #D8CFCF;
+    width: 400px;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+
+.benefitImg {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    .wordImgContainer p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.43743px;
+        color: #D8CFCF;
+        width: 100%;
+        position: absolute;
+        top: 65px;
+        left: 20px;
+    }
+
+    .wordImg {
+        width: 100%;
+        max-width: 599px;
+        height: 150px;
+    }
+
+    .wordContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cardContainer {
+        margin-top: 90px;
+    }
+
+    .headTitle {
+        font-size: 18px;
+    }
+
+    .BoxText {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .boxCard {
+        height: 230px;
+    }
+
+}

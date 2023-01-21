@@ -1,0 +1,109 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 62px;
+    height: 10vh;
+
+}
+
+.img {
+    width: 183px;
+    height: 51.67px;
+    display: block;
+    margin-right: 140px;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #DFE1E3;
+
+}
+
+.lunchBtn {
+    display: block;
+    margin-left: 140px;
+    width: 178px;
+    height: 58px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.43743px;
+
+    color: #A7ADDE;
+}
+
+.menu {
+    display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .linksContainer {
+        position: fixed;
+        top: 10vh;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #283350;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.4s ease-in;
+        text-align: center;
+        /* padding-left: 30px; */
+        justify-content: flex-start;
+        padding-top: 30px;
+
+    }
+
+    .linksContainer a {
+        margin-bottom: 20px;
+        display: block;
+        font-size: 20px;
+    }
+
+
+    .navbarContainer {
+        background-color: #1F143B;
+        padding-top: 5px;
+        width: 100% !important;
+        padding: 0 10px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+
+    }
+
+    .lunchBtn {
+        display: none;
+    }
+
+    .img {
+        width: 141px;
+        height: 39px;
+    }
+
+    .menu {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
+
+}
+
+.activeNavbar {
+    transform: translateX(0);
+}

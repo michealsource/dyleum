@@ -28,3 +28,19 @@
     color: #D8CFCF;
     margin-top: 20px;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .learnContainer {
+        margin: 0 auto;
+        padding-top: 15vh;
+    }
+
+    .aboutContent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .learnImg1 {
+        margin-top: 20px;
+    }
+}

@@ -14,7 +14,7 @@
 .wordImg {
     width: 100%;
     max-width: 599px;
-    height: 263px;
+    height: 200px;
 
 }
 
@@ -87,6 +87,7 @@
     width: 100%;
     display: inline-block;
     margin-top: 20px;
+
 }
 
 .cardContainer {
@@ -94,6 +95,7 @@
     flex-direction: column;
 
 }
+
 
 @media only screen and (max-device-width: 480px) {
     .wordImgContainer p {

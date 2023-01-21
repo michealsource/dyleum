@@ -8,8 +8,8 @@ import WishList from '../../components/wishList/wishList'
 const Contact = () => {
     return (
         <div className={styles.contactContainer}>
-            <Row>
-                <Col sm={8}>
+            <div className='row' style={{ width: "95%", marginLeft: 'auto', marginRight: "auto" }}>
+                <div className='col-lg-8'>
                     <h2 className={styles.contactHead}>Contact Us</h2>
                     <div className={styles.contactInputContainer}>
                         <input type="text" placeholder='Name' />
@@ -25,8 +25,8 @@ const Contact = () => {
                     <AppButton
                         title="Submit"
                     />
-                </Col>
-                <Col sm={4}>
+                </div>
+                <div className='col-lg-4'>
                     <div className={styles.infoContainer}>
                         <h2>More About Us</h2>
                         <p>Our customer support team is available to assist you with any issues you may have, and we will do our best to respond to your inquiry as quickly as possible. We value your feedback and are always looking for ways to improve our services, so please don't hesitate to contact us with your thoughts or suggestions.</p>
@@ -42,8 +42,8 @@ const Contact = () => {
                         </div>
                     </div>
 
-                </Col>
-            </Row>
+                </div>
+            </div>
             <WishList />
         </div>
     )

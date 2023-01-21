@@ -12,8 +12,9 @@ const World = () => {
     return (
         <>
             <div className={styles.wordContainer}>
-                <Row >
-                    <Col class="col-lg-6">
+                <div className='row'>
+                    <div className='col-lg-6'>
+
                         <div className={styles.wordImgContainer} >
                             <img src={world} alt="" className={styles.wordImg} />
                             <h4>Benefits</h4>
@@ -23,8 +24,9 @@ const World = () => {
                             <img src={benefit} alt="" className={styles.benefitImg} />
                         </div>
 
-                    </Col>
-                    <Col class="col-lg-6">
+                    </div>
+                    <div className='col-lg-6'>
+
                         <div className={styles.cardContainer}>
                             <div className={styles.boxCard}>
                                 <div className={styles.headerBox}>
@@ -50,8 +52,8 @@ const World = () => {
                                 <p className={styles.BoxText}>Dyleum offers a seamless and secure platform for decentralized finance, enabling interoperable transactions, innovative solutions and decentralized access.  </p>
                             </div>
                         </div>
-                    </Col>
-                </Row>
+                    </div>
+                </div>
 
             </div>
             <WishList />

@@ -1,3 +1,10 @@
+.tradingContainer {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
 .tradingImg {
     width: 100%;
 }
@@ -26,13 +33,7 @@
     margin-right: 70px;
 }
 
-.tradingContainer {
-    width: 100%;
-    max-width: 1100px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 0 auto;
-}
+
 
 @media only screen and (max-device-width: 480px) {
     .tradingH6Text {

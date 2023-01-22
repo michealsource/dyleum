@@ -65,6 +65,7 @@ a {
         justify-content: flex-start;
         padding-top: 30px;
 
+
     }
 
     .linksContainer a {
@@ -83,6 +84,7 @@ a {
         top: 0;
         right: 0;
         left: 0;
+        z-index: 999;
 
     }
 

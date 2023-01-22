@@ -11,7 +11,9 @@ const PlatFormSection = () => {
         <div className={styles.platformContainer}>
             <h5 className={styles.tradingH5Text}>A BETTER WAY TO INVEST</h5>
             <h4 className={styles.tradingH6Text}>The World Leading Crytocurrency Platform</h4>
-            <Row className="gap-1 mt-5" style={{ width: '100%', marginLeft: 'auto', marginRight: "auto" }}>
+            <Row className="gap-1 mt-5" style={{ width: '100%', marginLeft: 'auto', marginRight: "auto" }} data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" >
                 <Col >
                     <div className={styles.box}>
                         <div className={styles.Imgbox}>
@@ -71,7 +73,9 @@ const PlatFormSection = () => {
             </Row>
 
 
-            <Row className="gap-1 mt-4" style={{ width: '100%', marginLeft: 'auto', marginRight: "auto" }}>
+            <Row className="gap-1 mt-4" style={{ width: '100%', marginLeft: 'auto', marginRight: "auto" }} data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <Col >
                     <div className={styles.box} >
                         <div className={styles.Imgbox}>

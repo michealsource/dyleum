@@ -19,10 +19,14 @@ const FaqSection = () => {
     return (
         <div className={styles.faqContainer}>
             <Row style={{ width: '95%', marginLeft: 'auto', marginRight: "auto" }}>
-                <Col>
+                <Col data-aos="fade-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <img src={faq} alt="" className={styles.image} />
                 </Col>
-                <Col>
+                <Col data-aos="fade-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div className={styles.accordianContainer}>
                         {accordians.map((item, index) => (
                             <div className={styles.accordianItem}>

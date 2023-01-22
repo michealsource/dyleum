@@ -4,7 +4,9 @@ import FrameMobile from '../../assets/images/tekhomeMobile.png'
 import styles from './ Tokenomics.module.css'
 const Tokenomics = () => {
     return (
-        <div className={styles.takeContainer}>
+        <div className={styles.takeContainer} data-aos="zoom-in-down"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <img src={Frame} alt="" className={styles.tokenomicsBg} />
             <img src={FrameMobile} alt="" className={styles.tokenomicsBgMobile} />
         </div>

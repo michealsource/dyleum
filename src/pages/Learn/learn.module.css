@@ -10,6 +10,30 @@
 }
 
 .learnImg1 {
+    width: 300px;
+    height: 300px;
+}
+
+.learnImg2 {
+    width: 400px;
+    height: 250px;
+}
+
+.learnImg3 {
+    width: 500px;
+    height: 550px;
+}
+
+.learnImg4 {
+    width: 300px;
+    height: 300px;
+}
+
+.learnImg5 {
+    width: 100%;
+}
+
+.learnImg6 {
     width: 100%;
 }
 
@@ -29,6 +53,7 @@
     margin-top: 20px;
 }
 
+
 @media only screen and (max-device-width: 480px) {
     .learnContainer {
         margin: 0 auto;
@@ -42,5 +67,21 @@
 
     .learnImg1 {
         margin-top: 20px;
+        width: 100%;
     }
+
+    .learnImg2,
+    .learnImg3 {
+        width: 100%;
+    }
+
+    .learnImg4 {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .decentralizedSection {
+        display: none;
+    }
+
 }

@@ -8,7 +8,9 @@ const LearnMore = () => {
     return (
         <div className={styles.lernMoreContainer}>
             <Row style={{ width: '100%', marginLeft: 'auto', marginRight: "auto" }}>
-                <Col>
+                <Col data-aos="fade-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div className={styles.leftSide}>
                         <h5>
                             Learn More About Dyleum</h5>
@@ -20,7 +22,9 @@ const LearnMore = () => {
                     />
 
                 </Col>
-                <Col>
+                <Col data-aos="fade-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <img src={more} alt="" className={styles.lernMoreImg} />
                 </Col>
             </Row>

@@ -20,7 +20,7 @@ const Home = () => {
         <>
             <Row style={{ width: "100%" }}>
                 <Col class="col-sm-8"
-                    data-aos="fade-up"
+                    data-aos="fade-down"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000"
                 >
@@ -46,26 +46,12 @@ const Home = () => {
             <PlatFormSection />
             <World />
             <LearnMore />
+
             <Tokenomics />
             <RoadMap />
             <FaqSection />
             <NewsLetter />
-            {/*
-            
-            
-            
-           
-            
-             */}
-            {/*/>
-            
-            
-           
-            
-            
-           
-           
-           */}
+
         </>
     )
 }

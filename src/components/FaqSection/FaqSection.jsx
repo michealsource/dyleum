@@ -18,30 +18,30 @@ const FaqSection = () => {
     }
     return (
         <div className={styles.faqContainer}>
-            <Row style={{ width: '95%', marginLeft: 'auto', marginRight: "auto" }}>
-                <Col data-aos="fade-right"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000">
-                    <img src={faq} alt="" className={styles.image} />
-                </Col>
-                <Col data-aos="fade-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000">
-                    <div className={styles.accordianContainer}>
-                        {accordians.map((item, index) => (
-                            <div className={styles.accordianItem}>
-                                <div className={selected === index ? styles.accordianTitleActive : styles.accordianTitle} onClick={() => toggle(index)}>
-                                    {item.question}
-                                    {selected === index ? <FaTimes /> : <FaPlus />}
+            <div className='container'>
+                <Row style={{ width: '95%', marginLeft: 'auto', marginRight: "auto" }}>
+
+                    <Col>
+                        <img src={faq} alt="" className={styles.image} />
+                    </Col>
+                    <Col >
+                        <div className={styles.accordianContainer}>
+                            {accordians.map((item, index) => (
+                                <div className={styles.accordianItem}>
+                                    <div className={selected === index ? styles.accordianTitleActive : styles.accordianTitle} onClick={() => toggle(index)}>
+                                        {item.question}
+                                        {selected === index ? <FaTimes /> : <FaPlus />}
+                                    </div>
+                                    <div className={selected === index ? styles.accordianContentDisplay : styles.accordianContent}>
+                                        {item.answer}
+                                    </div>
                                 </div>
-                                <div className={selected === index ? styles.accordianContentDisplay : styles.accordianContent}>
-                                    {item.answer}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </Col>
-            </Row>
+                            ))}
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+
         </div>
     )
 }

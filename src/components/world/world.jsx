@@ -13,23 +13,19 @@ const World = () => {
         <>
             <div className={styles.wordContainer}>
                 <div className='row'>
-                    <div className='col-lg-6' data-aos="fade-right"
-                        data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000">
-
-                        <div className={styles.wordImgContainer} >
-                            <img src={world} alt="" className={styles.wordImg} />
-                            <h4>Benefits</h4>
-                            <p>Efficient. Interoperable. Trustworthy.</p>
-                        </div>
+                    <div className='col-lg-6'>
                         <div>
-                            <img src={benefit} alt="" className={styles.benefitImg} />
+                            <div className={styles.wordImgContainer} >
+                                <img src={world} alt="" className={styles.wordImg} />
+                                <h4>Benefits</h4>
+                                <p>Efficient. Interoperable. Trustworthy.</p>
+                            </div>
+                            <div>
+                                <img src={benefit} alt="" className={styles.benefitImg} />
+                            </div>
                         </div>
-
                     </div>
-                    <div className='col-lg-6' data-aos="fade-left"
-                        data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000">
+                    <div className='col-lg-6' >
 
                         <div className={styles.cardContainer}>
                             <div className={styles.boxCard}>

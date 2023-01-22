@@ -22,7 +22,7 @@ const Home = () => {
                 <Col class="col-sm-8"
                     data-aos="fade-down"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000"
+
                 >
                     <div className={styles.homeTextContainer}>
                         <h1 className={styles.homeHeaderText}>Empowering Decentralized Trading</h1>
@@ -33,15 +33,16 @@ const Home = () => {
                 </Col>
                 <Col class="col-sm-4" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000">
+                >
                     <img src={hand} alt="" className={styles.handImg} />
                 </Col>
             </Row>
             <div className={styles.straightLine} />
             <img src={BgImg} alt="" className={styles.buyStoreImg} data-aos="flip-right"
                 data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000" />
-            <img src={storeMobile} alt="" className={styles.storeMobileDisplay} />
+            />
+            <img src={storeMobile} alt="" className={styles.storeMobileDisplay} data-aos="flip-right"
+                data-aos-easing="ease-out-cubic" />
             <TradingSection />
             <PlatFormSection />
             <World />

@@ -28,7 +28,10 @@ const Home = () => {
                         <h1 className={styles.homeHeaderText}>Empowering Decentralized Trading</h1>
                         <img src={card} alt="" className={styles.mobileCardImg} />
                         <p className={styles.bottomText}>Experience the future of finance with our DeFi protocol. Empowering you to access the decentralized financial market and unlock its potential with ease.</p>
+                    </div>
+                    <div className={styles.actionWrapper}>
                         <button className={styles.wishListBtn}>Join Whitelist</button>
+                        <button className={styles.wishListBtnLunch}>Lunch App</button>
                     </div>
                 </Col>
                 <Col class="col-sm-4" data-aos="flip-left"

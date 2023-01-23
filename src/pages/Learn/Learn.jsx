@@ -150,7 +150,7 @@ const Learn = () => {
                 <div className={styles.marginTop}>
                     <div className='gx-0 row' style={{ width: "100%" }}>
 
-                        <div className='col-lg-4'>
+                        <div className='col-lg-4 order-sm-first order-last'>
                             <img src={learn6} alt="" className={styles.learnImg5} />
                         </div>
 

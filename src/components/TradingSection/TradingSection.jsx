@@ -7,14 +7,15 @@ import AppButton from '../AppButton/AppButton';
 const TradingSection = () => {
 
     return (
-        <Row style={{ width: "100%", marginLeft: 'auto', marginRight: 'auto' }}>
-            <div className={styles.tradingContainer}>
-                <Col class="col-12 col-md-6">
+        <div className={styles.tradingContainer}>
+            <Row style={{ width: "100%", marginLeft: 'auto', marginRight: 'auto' }}>
+
+                <div class="col-lg-5">
                     <img src={trading} alt="" className={styles.tradingImg}
                         data-aos="flip-right"
                         data-aos-easing="ease-out-cubic" />
-                </Col>
-                <Col class="col-12 col-md-6">
+                </div>
+                <div class="col-lg-7">
                     <div
                         data-aos="flip-right"
                         data-aos-easing="ease-out-cubic">
@@ -26,10 +27,9 @@ const TradingSection = () => {
                         />
                     </div>
 
-                </Col>
-            </div>
-
-        </Row>
+                </div>
+            </Row>
+        </div>
     )
 }
 

@@ -7,7 +7,7 @@
 
 .imgTeam {
     width: 100%;
-    margin-top: 20p;
+    margin-top: 20px;
     /* height: 250px; */
 }
 
@@ -93,4 +93,17 @@
         margin: 0 auto;
         padding-top: 15vh;
     }
+
+    .ourTeamText {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 135.4%;
+        letter-spacing: -0.43743px;
+        width: 900px;
+        color: #FFFFFF;
+        margin: 20px 0px;
+    }
+
+
 }

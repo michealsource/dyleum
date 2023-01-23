@@ -99,6 +99,10 @@
         padding-top: 10vh;
     }
 
+    .infoContainer {
+        margin-bottom: 40px;
+    }
+
     /* .contactMessageContainer {
         width: 90%;
         height: 200px;

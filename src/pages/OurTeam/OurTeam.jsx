@@ -20,7 +20,7 @@ const OurTeam = () => {
                             <img src={user1} alt="" className={styles.imgTeam} />
                             <h4>Handsome Smith</h4>
                             <span>CEO</span>
-                            <p>Lorem ipsum dolor sit amet consectetur. Tellus ut consectetur libero nibh tristique blandit sed. Sit mauris dignissim sed risus phasellus. Et enim amet semper et nulla mattis consectetur sit metus. Sit adipiscing.</p>
+
                             <div className={styles.socialMediaLinks}>
                                 <FaFacebook />
                                 <FaTwitter />
@@ -33,7 +33,7 @@ const OurTeam = () => {
                             <img src={user2} alt="" className={styles.imgTeam} />
                             <h4>John Doe</h4>
                             <span>CTO</span>
-                            <p>Lorem ipsum dolor sit amet consectetur. Tellus ut consectetur libero nibh tristique blandit sed. Sit mauris dignissim sed risus phasellus. Et enim amet semper et nulla mattis consectetur sit metus. Sit adipiscing.</p>
+
                             <div className={styles.socialMediaLinks}>
                                 <FaFacebook />
                                 <FaTwitter />
@@ -46,7 +46,7 @@ const OurTeam = () => {
                             <img src={user3} alt="" className={styles.imgTeam} />
                             <h4>Junkie Bassey</h4>
                             <span>COO</span>
-                            <p>Lorem ipsum dolor sit amet consectetur. Pretium sed lacus bibendum ac quisque. Viverra ut amet ornare egestas neque sit aenean etiam. Aliquam proin odio malesuada enim et mi massa at sagittis.</p>
+
                             <div className={styles.socialMediaLinks}>
                                 <FaFacebook />
                                 <FaTwitter />
@@ -105,7 +105,10 @@ const OurTeam = () => {
              */}
             </div>
 
-            <WishList />
+            <div className={styles.teamBoxBottom}>
+                <WishList />
+            </div>
+
         </>
     )
 }

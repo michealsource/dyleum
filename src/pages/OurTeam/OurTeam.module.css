@@ -103,6 +103,30 @@
         width: 900px;
         color: #FFFFFF;
         margin: 20px 0px;
+        margin-bottom: -15px !important;
+    }
+
+    .socialMediaLinks {
+        margin-top: -13px;
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        color: #0095FF;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .teamBox span {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 26px;
+        color: #FFFFFF;
+    }
+
+    .teamBoxBottom {
+        margin-top: 30px;
     }
 
 

@@ -31,7 +31,7 @@ const Home = () => {
                     </div>
                     <div className={styles.actionWrapper}>
                         <button className={styles.wishListBtn}>Join Whitelist</button>
-                        <button className={styles.wishListBtnLunch}>Lunch App</button>
+                        <button className={styles.wishListBtnLunch}>Launch App</button>
                     </div>
                 </Col>
                 <Col class="col-sm-4" data-aos="flip-left"

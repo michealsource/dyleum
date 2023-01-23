@@ -4,7 +4,7 @@ function NewsLetter() {
     return (
         <div className={styles.newsLetterContainer}>
             <h4>Join our newsletter</h4>
-            <h6>get weekly access to our best deal, tips and tricks!</h6>
+            <h6>Get updates about Dyleum!</h6>
 
             <div className={styles.inputWrapper}>
                 <div className={styles.inputBox}>

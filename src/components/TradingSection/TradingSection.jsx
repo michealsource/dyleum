@@ -21,7 +21,7 @@ const TradingSection = () => {
                         data-aos-easing="ease-out-cubic">
                         <h6 className={styles.tradingH6Text}>BEST TRADING EXPERIENCE</h6>
                         <h5 className={styles.tradingH5Text}>Trade Anywhere & Anytime!</h5>
-                        <p className={styles.tradingText}>Welcome to Dyleum, the one-stop protocol for all crypto users! We’re here to make crypto transactions easier and more secure, leveraging the power of blockchain with fintech. Whether you’re a beginner or an experienced investor, we have the tools to help you manage your crypto portfolio. With our intuitive interface, you can easily buy, sell, and store your digital assets. Plus, our advanced security features provide peace of mind that your funds are safe and secure. Get started today and join the future of finance with Dyleum.</p>
+                        <p className={styles.tradingText}>Dyleum simplifies and secures crypto transactions with blockchain and fintech. Our products cater to all levels of investors, allowing easy management of digital assets. Advanced security ensures your funds are safe. Join the future of finance with Dyleum.</p>
                         <AppButton
                             title="Read more"
                         />

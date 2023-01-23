@@ -16,7 +16,6 @@ const Contact = () => {
                         <input type="text" placeholder='Email' />
                     </div>
                     <div className={styles.contactInputContainer}>
-                        <input type="text" placeholder='Phone Number' />
                         <input type="text" placeholder='Subject' />
                     </div>
                     <textarea placeholder='Write Message' className={styles.contactMessageContainer}>

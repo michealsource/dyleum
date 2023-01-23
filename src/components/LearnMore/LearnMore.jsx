@@ -11,8 +11,7 @@ const LearnMore = () => {
                 <div>
                     <Col>
                         <div className={styles.leftSide}>
-                            <h5>
-                                Learn More About Dyleum</h5>
+                            <h5> Learn More About Dyleum</h5>
                             <p>Dyleum is a one-stop decentralized protocol that enables users to access a variety of decentralized services including digital identity and asset origination, asset trading, and token transactions. Learn more about Dyleum to find out how it can help you take control of your digital assets and transactions. With Dyleum, you can easily and securely manage, and transfer your digital assets with confidence.</p>
                         </div>
 

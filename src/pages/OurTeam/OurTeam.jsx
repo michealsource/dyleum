@@ -14,6 +14,7 @@ const OurTeam = () => {
                 <div className='row' style={{ width: "100%", marginLeft: 'auto', marginRight: 'auto' }}>
                     <h1 className={styles.ourTeamHeader}>Meet our team of cypto experts</h1>
                     <p className={styles.ourTeamText}>We are a team of passionate and experienced individuals who have come together to create a revolutionary crypto project that aims to revolutionize the industry. With our cutting-edge technology and forward-thinking approach, we are dedicated to making a real difference in the world of cryptocurrency. Join us in our mission to shape the future of finance.</p>
+
                     <div className='col-lg-4'>
                         <div className={styles.teamBox}>
                             <img src={user1} alt="" className={styles.imgTeam} />

@@ -36,11 +36,15 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #000000;
     outline: none;
     border: none;
     margin-top: 61px;
     padding: 15px 50px;
+}
+
+.wishListBtn a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .wishListBtnLunch {

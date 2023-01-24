@@ -34,8 +34,12 @@
     font-size: 20px;
     outline: none;
     border: none;
-    color: #FFFFFF;
+
     margin-top: 64px;
+}
+
+.joinBtn a {
+    color: #FFFFFF;
 }
 
 @media only screen and (max-device-width: 480px) {

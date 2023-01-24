@@ -8,6 +8,7 @@ import styles from './routes.module.css'
 import Footer from "../components/Footer/Footer";
 import OurTeam from "../pages/OurTeam/OurTeam";
 import Contact from "../pages/Contact/Contact";
+import Faq from "../pages/Faq/Faq";
 
 const RoutesContainer = () => {
     const location = useLocation();
@@ -24,6 +25,7 @@ const RoutesContainer = () => {
                 <Route path="/learn" element={<Learn />} />
                 <Route path="/team" element={<OurTeam />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/faq" element={<Faq />} />
             </Routes>
             <Footer />
         </div>

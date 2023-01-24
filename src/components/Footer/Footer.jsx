@@ -11,20 +11,20 @@ const Footer = () => {
                     <span className={styles.year} >@Dyleum2023</span>
                 </div>
                 <div className={styles.footerBox}>
-                    <span>Learn</span>
-                    <span>Product</span>
-                    <span>Documentation</span>
-                    <span>Pitch Deck</span>
+                    <a href="">Learn</a>
+                    <a href="">Product</a>
+                    <a href="">Documentation</a>
+                    <a href="">Pitch Deck</a>
 
                 </div>
                 <div className={styles.footerBox}>
-                    <span>About</span>
-                    <span>Contact Us</span>
-                    <span>Team</span>
+                    <a href="/about">About Us</a>
+                    <a href="/contact">Contact Us</a>
+                    <a href="/team">Our Team</a>
 
                 </div>
                 <div className={styles.footerBox}>
-                    <span>FAQ</span>
+                    <a href="">FAQ</a>
                 </div>
                 <div>
                     <div className={styles.socialMediaLinks}>
@@ -41,11 +41,12 @@ const Footer = () => {
             <div className={styles.mobileFooter}>
                 <div className={styles.mobileFooterLinks}>
                     <img src={logo} alt="" className={styles.imgLogoMobile} />
-                    <span>Learn</span>
-                    <span>Contact us</span>
-                    <span>FAQ</span>
-                    <span>About us</span>
-                    <span>our team</span>
+                    <a href="/learn">Learn</a>
+                    <a href="/contact">Contact Us</a>
+                    <a href="">FAQ</a>
+                    <a href="/about">About Us</a>
+                    <a href="/team">Our Team</a>
+
                 </div>
 
                 <div>

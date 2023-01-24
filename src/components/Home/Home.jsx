@@ -6,6 +6,7 @@ import hand from '../../assets/images/hand.png'
 import card from '../../assets/images/cardMobile.png'
 import BgImg from '../../assets/images/bgImg2.png'
 import storeMobile from '../../assets/images/storeMobile.png'
+import lunchApp from '../../assets/images/LaunchApp.png'
 import TradingSection from '../TradingSection/TradingSection';
 import PlatFormSection from '../PlatFormSection/PlatFormSection';
 import World from '../world/world';
@@ -14,7 +15,6 @@ import Tokenomics from '../ Tokenomics/ Tokenomics';
 import RoadMap from '../RoadMap/RoadMap';
 import FaqSection from '../FaqSection/FaqSection';
 import NewsLetter from '../newsLetter/newsLetter';
-import Footer from '../Footer/Footer';
 const Home = () => {
     return (
         <>
@@ -30,8 +30,13 @@ const Home = () => {
                         <p className={styles.bottomText}>Experience the future of finance with our DeFi protocol. Empowering you to access the decentralized financial market and unlock its potential with ease.</p>
                     </div>
                     <div className={styles.actionWrapper}>
-                        <button className={styles.wishListBtn}>Join Whitelist</button>
-                        <button className={styles.wishListBtnLunch}>Launch App</button>
+                        <button className={styles.wishListBtn}>
+                            <a href="https://forms.gle/uvkp5p3wHRL3irwR9" target="_blank">Join Whitelist</a>
+                        </button>
+                        {/* <img src={lunchApp} alt="" /> */}
+                        <button className={styles.wishListBtnLunch}>
+                            Launch App
+                        </button>
                     </div>
                 </Col>
                 <Col class="col-sm-4" data-aos="flip-left"

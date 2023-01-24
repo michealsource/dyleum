@@ -19,7 +19,7 @@ const Navbar = () => {
                 <a href="/contact">Contact</a>
                 <a href="/about">About Us</a>
                 <a href="/team">Our Team</a>
-                <a href="">FAQ</a>
+                <a href="/faq">FAQ</a>
             </div>
             <img src={menu} alt="" className="menu" onClick={Toggle} />
             <button className="lunchBtn">Launch App</button>

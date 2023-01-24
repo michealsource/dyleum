@@ -37,9 +37,7 @@
     flex-direction: column;
 }
 
-.teamBox p {
-    font-size: 16px;
-}
+
 
 .teamBox h4 {
     font-style: normal;
@@ -53,7 +51,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
-    margin-top: 26px;
+    margin-top: 15px;
     margin-bottom: 26px;
     color: #FFFFFF;
 }
@@ -68,13 +66,14 @@
 }
 
 .socialMediaLinks {
-    margin-top: 26px;
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
     width: 100px;
     color: #0095FF;
     font-size: 20px;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 
 
@@ -82,8 +81,10 @@
 
 @media only screen and (max-device-width: 480px) {
     .imgTeam {
-        width: 100%;
+
         margin-top: 50px;
+        width: 96px;
+        height: 96px;
         /* height: 250px; */
     }
 
@@ -110,23 +111,32 @@
         margin-top: -13px;
         display: flex;
         justify-content: space-between;
-        width: 100px;
+        width: 70px;
         color: #0095FF;
-        font-size: 20px;
+        font-size: 15px;
         cursor: pointer;
     }
 
     .teamBox span {
         font-style: normal;
         font-weight: 300;
-        font-size: 16px;
-        margin-top: 15px;
+        font-size: 14px;
+        margin-top: 10px;
         margin-bottom: 26px;
         color: #FFFFFF;
     }
 
     .teamBoxBottom {
-        margin-top: 30px;
+        margin-top: 50px;
+    }
+
+    .teamBox h4 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        height: 30px;
     }
 
 

@@ -90,6 +90,15 @@
     margin-top: 25px;
 }
 
+.socialMediaLinks a {
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.socialMediaLinks a:hover {
+    color: #DFE1E3;
+}
+
 .btnBox {
     width: 218px !important;
     height: 60px !important;

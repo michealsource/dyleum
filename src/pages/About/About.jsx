@@ -38,7 +38,7 @@ const About = () => {
                 <div className={styles.straightLine} />
 
                 <div class="row gx-5 mt-5" style={{ width: "100%", marginLeft: 'auto', marginRight: 'auto' }}>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 order-sm-first order-last">
                         <img src={about2} alt="" className={styles.aboutImg2} />
                     </div>
                     <div class="col-lg-8">

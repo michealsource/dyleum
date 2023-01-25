@@ -54,7 +54,7 @@ a {
         top: 7vh;
         right: 0;
         width: 100%;
-        height: 100%;
+        height: 50%;
         background-color: #283350;
         flex-direction: column;
         transform: translateX(100%);

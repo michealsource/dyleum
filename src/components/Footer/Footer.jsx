@@ -28,12 +28,19 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className={styles.socialMediaLinks}>
-                        <FaFacebook />
-                        <FaTelegram />
-                        <FaDiscord />
-                        <FaTwitter />
-                        <FaLinkedin />
-                        <FaMedium />
+                        {/* <FaFacebook /> */}
+                        <a href="https://t.me/dyleum">
+                            <FaTelegram />
+                        </a>
+
+                        <a href="https://twitter.com/dyleum_com">
+                            <FaTwitter />
+                        </a>
+
+                        {/* <FaDiscord /> */}
+
+                        {/* <FaLinkedin />
+                        <FaMedium /> */}
                     </div>
                 </div>
             </div>
@@ -45,18 +52,24 @@ const Footer = () => {
                     <a href="/contact">Contact Us</a>
                     <a href="">FAQ</a>
                     <a href="/about">About Us</a>
-                    <a href="/team">Our Team</a>
-
+                    {/* <a href="/team">Our Team</a> */}
                 </div>
 
                 <div>
                     <div className={styles.mobileFooterSocialLinks}>
-                        <FaFacebook />
-                        <FaTelegram />
-                        <FaDiscord />
-                        <FaTwitter />
-                        <FaLinkedin />
-                        <FaMedium />
+                        <a href="https://t.me/dyleum" target="_blank" rel="noopener noreferrer">
+                            <FaTelegram />
+                        </a>
+
+                        <a href="https://twitter.com/dyleum_com" target="_blank" rel="noopener noreferrer">
+                            <FaTwitter />
+                        </a>
+                        {/* <FaFacebook /> */}
+                        {/* <FaTelegram /> */}
+                        {/* <FaDiscord /> */}
+                        {/* <FaTwitter /> */}
+                        {/* <FaLinkedin />
+                        <FaMedium /> */}
                     </div>
 
                     <div>

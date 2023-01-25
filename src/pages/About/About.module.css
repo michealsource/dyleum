@@ -98,4 +98,13 @@
         font-size: 20px;
         margin-bottom: 50px;
     }
+
+    .aboutImg2 {
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-top: 25px;
+        /* height: 400px; */
+    }
 }

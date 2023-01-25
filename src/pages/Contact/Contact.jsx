@@ -4,7 +4,7 @@ import styles from './Contact.module.css'
 import AppButton from '../../components/AppButton/AppButton'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { FaFacebook, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaTwitter, FaEnvelope, FaTelegram } from 'react-icons/fa'
 import WishList from '../../components/wishList/wishList'
 
 const Contact = () => {
@@ -61,9 +61,13 @@ const Contact = () => {
                             </div>
 
                             <div className={styles.socialMediaLinks}>
-                                <FaFacebook />
-                                <FaTwitter />
-                                <FaLinkedin />
+                                <a href="https://t.me/dyleum" target="_blank" rel="noopener noreferrer">
+                                    <FaTelegram />
+                                </a>
+                                <a href="https://twitter.com/dyleum_com" target="_blank" rel="noopener noreferrer">
+                                    <FaTwitter />
+                                </a>
+
                             </div>
                         </div>
 

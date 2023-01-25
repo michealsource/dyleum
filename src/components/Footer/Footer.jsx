@@ -60,7 +60,7 @@ const Footer = () => {
                         <a href="">FAQ</a>
                         <a href="/about">About Us</a>
                         <Link to="">Product</Link>
-                        <Link to="">Documentation</Link>
+                        <a href="https://dyleum.gitbook.io" target="_blank" rel="noopener noreferrer">Documentation</a>
                         <a href="./dyleum.pdf" download>Pitch Deck</a>
                     </div>
 

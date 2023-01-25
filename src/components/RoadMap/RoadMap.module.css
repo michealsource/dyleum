@@ -25,4 +25,8 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .roadMapContainer {
+        margin-top: 50px;
+    }
 }

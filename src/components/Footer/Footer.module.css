@@ -1,11 +1,11 @@
 .newsLetterContainer {
-    width: 100%;
+    width: 65%;
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     /* padding: 90px 0px; */
 }
 
@@ -38,7 +38,7 @@
 .socialMediaLinks {
     display: flex;
     justify-content: space-between;
-    width: 170px;
+    width: 100px;
     margin-top: 10px;
     color: #0095FF;
     font-size: 20px;
@@ -58,6 +58,9 @@
     display: none;
 }
 
+.socialIcon {
+    font-size: 30px;
+}
 
 
 
@@ -70,7 +73,7 @@
         padding-right: 30px;
         padding-bottom: 50px;
         position: relative;
-        top: 50px;
+        top: 20px;
         background-color: #000F19;
     }
 
@@ -97,7 +100,7 @@
     .imgLogoMobile {
         width: 104px;
         height: 29px;
-        margin-bottom: 17px;
+        margin-bottom: 5px;
         display: inline-block;
     }
 
@@ -110,5 +113,13 @@
         width: 30%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: -30px;
+    }
+
+    .mobileFooterLinkResponsivesnes {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 }

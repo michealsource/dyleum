@@ -2,20 +2,23 @@ import React from 'react'
 import styles from './Footer.module.css'
 import logo from '../../assets/images/dyleumLogo.png'
 import { FaFacebook, FaTelegram, FaDiscord, FaTwitter, FaLinkedin, FaMedium } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <>
             <div className={styles.newsLetterContainer}>
                 <div>
-                    <img src={logo} alt="" className={styles.imgLogo} />
+                    <Link to="/">
+                        <img src={logo} alt="" className={styles.imgLogo} />
+                    </Link>
+
                     <span className={styles.year} >@Dyleum2023</span>
                 </div>
                 <div className={styles.footerBox}>
-                    <a href="">Learn</a>
-                    <a href="">Product</a>
-                    <a href="">Documentation</a>
-                    <a href="">Pitch Deck</a>
-
+                    <Link to="/learn">Learn</Link>
+                    <Link to="">Product</Link>
+                    <Link to="">Documentation</Link>
+                    <a href="./dyleum.pdf" download>Pitch Deck</a>
                 </div>
                 <div className={styles.footerBox}>
                     <a href="/about">About Us</a>
@@ -24,17 +27,17 @@ const Footer = () => {
 
                 </div>
                 <div className={styles.footerBox}>
-                    <a href="">FAQ</a>
+                    <a href="/faq">FAQ</a>
                 </div>
                 <div>
                     <div className={styles.socialMediaLinks}>
                         {/* <FaFacebook /> */}
                         <a href="https://t.me/dyleum">
-                            <FaTelegram />
+                            <FaTelegram className={styles.socialIcon} />
                         </a>
 
                         <a href="https://twitter.com/dyleum_com">
-                            <FaTwitter />
+                            <FaTwitter className={styles.socialIcon} />
                         </a>
 
                         {/* <FaDiscord /> */}
@@ -47,11 +50,18 @@ const Footer = () => {
 
             <div className={styles.mobileFooter}>
                 <div className={styles.mobileFooterLinks}>
-                    <img src={logo} alt="" className={styles.imgLogoMobile} />
-                    <a href="/learn">Learn</a>
-                    <a href="/contact">Contact Us</a>
-                    <a href="">FAQ</a>
-                    <a href="/about">About Us</a>
+                    <Link to="/">
+                        <img src={logo} alt="" className={styles.imgLogoMobile} />
+                    </Link>
+
+                    <div className={styles.mobileFooterLinkResponsivesnes}>
+                        <a href="/learn">Learn</a>
+                        <a href="/contact">Contact Us</a>
+                        <a href="">FAQ</a>
+                        <a href="/about">About Us</a>
+                        <a href="./dyleum.pdf" download>Pitch Deck</a>
+                    </div>
+
                     {/* <a href="/team">Our Team</a> */}
                 </div>
 

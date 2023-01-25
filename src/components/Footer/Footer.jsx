@@ -16,8 +16,9 @@ const Footer = () => {
                 </div>
                 <div className={styles.footerBox}>
                     <Link to="/learn">Learn</Link>
-                    <Link to="">Product</Link>
-                    <Link to="">Documentation</Link>
+                    <Link to="/learn">Product</Link>
+                    <a href="https://dyleum.gitbook.io">Documentation</a>
+
                     <a href="./dyleum.pdf" download>Pitch Deck</a>
                 </div>
                 <div className={styles.footerBox}>
@@ -59,7 +60,7 @@ const Footer = () => {
                         <a href="/contact">Contact Us</a>
                         <a href="">FAQ</a>
                         <a href="/about">About Us</a>
-                        <Link to="">Product</Link>
+                        <Link to="/learn">Product</Link>
                         <a href="https://dyleum.gitbook.io" target="_blank" rel="noopener noreferrer">Documentation</a>
                         <a href="./dyleum.pdf" download>Pitch Deck</a>
                     </div>

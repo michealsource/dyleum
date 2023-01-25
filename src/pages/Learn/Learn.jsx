@@ -47,7 +47,7 @@ const Learn = () => {
                         <div className='col-lg-8'>
                             <div className={styles.aboutContent}>
                                 <h4>NFC Payments</h4>
-                                <p>An easy and secure NFC payment solution for businesses and daily transactions, allowing users to accept payments using NFC or QR codes and storing customer data and money while ensuring anonymity. With the support of virtual debit cards, Dyleum's NFC payment method allows for seamless, cashless and cardless transactions using Dyleum Token $LEUM and stablecoins."
+                                <p>An easy and secure NFC payment solution for businesses and daily transactions, allowing users to accept payments using NFC or QR codes and storing customer data and money while ensuring anonymity. With the support of virtual debit cards, Dyleum's NFC payment method allows for seamless, cashless and cardless transactions using Dyleum Token $LEUM and stablecoins.
                                 </p>
 
                             </div>

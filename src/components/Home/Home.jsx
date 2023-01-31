@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import hand from '../../assets/images/hand.png'
 import card from '../../assets/images/cardMobile.png'
 import BgImg from '../../assets/images/bgImg2.png'
-import storeMobile from '../../assets/images/storeMobile.png'
+import storeMobile from '../../assets/images/storeMobile.svg'
 import lunchApp from '../../assets/images/LaunchApp.png'
 import TradingSection from '../TradingSection/TradingSection';
 import PlatFormSection from '../PlatFormSection/PlatFormSection';

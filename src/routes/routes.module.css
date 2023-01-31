@@ -1,25 +1,28 @@
 .homeBackground {
     width: 100%;
     height: 100%;
-    background-image: url('../assets/images/Home2.png');
+    background: #000F19;
+    /* background-image: url('../assets/images/Home2.png');
     background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .otherBackgroundRoutes {
     width: 100%;
     height: 100%;
-    background-image: url('../assets/images/ourTeamBg.png');
+    background: #000F19;
+    /* background-image: url('../assets/images/ourTeamBg.png');
     background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .aboutBgImage {
     width: 100%;
-    height: 100%;
+    background: #000F19;
+    /* height: 100%;
     background-image: url('../assets/images/aboutBg.png');
     background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 @media only screen and (max-device-width: 480px) {

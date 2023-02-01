@@ -16,7 +16,8 @@ const Footer = () => {
                 </div>
                 <div className={styles.footerBox}>
                     <Link to="/learn">Learn</Link>
-                    <Link to="/learn">Product</Link>
+                    <a href="https://dyleum.gitbook.io/whitepaper/our-products" target="_blank" rel="noopener noreferrer">Product</a>
+
                     <a href="https://dyleum.gitbook.io">Documentation</a>
 
                     <a href="./dyleum.pdf" download>Pitch Deck</a>
@@ -58,9 +59,9 @@ const Footer = () => {
                     <div className={styles.mobileFooterLinkResponsivesnes}>
                         <a href="/learn">Learn</a>
                         <a href="/contact">Contact Us</a>
-                        <a href="">FAQ</a>
+                        <a href="/faq">FAQ</a>
                         <a href="/about">About Us</a>
-                        <Link to="/learn">Product</Link>
+                        <a href="https://dyleum.gitbook.io/whitepaper/our-products" target="_blank" rel="noopener noreferrer">Product</a>
                         <a href="https://dyleum.gitbook.io" target="_blank" rel="noopener noreferrer">Documentation</a>
                         <a href="./dyleum.pdf" download>Pitch Deck</a>
                     </div>

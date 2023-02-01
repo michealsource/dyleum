@@ -22,9 +22,9 @@ const TradingSection = () => {
                         <h6 className={styles.tradingH6Text}>BEST TRADING EXPERIENCE</h6>
                         <h5 className={styles.tradingH5Text}>Trade Anywhere & Anytime!</h5>
                         <p className={styles.tradingText}>Dyleum simplifies and secures crypto transactions with blockchain and fintech. Our products cater to all levels of investors, allowing easy management of digital assets. Advanced security ensures your funds are safe. Join the future of finance with Dyleum.</p>
-                        <AppButton
-                            title="Read more"
-                        />
+
+                        <button className={styles.btn}>
+                            <a href="https://dyleum.gitbook.io" target="_blank" rel="noopener noreferrer">Read more</a></button>
                     </div>
 
                 </div>

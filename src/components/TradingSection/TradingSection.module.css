@@ -33,6 +33,24 @@
     margin-right: 70px;
 }
 
+.btn {
+    width: 218px;
+    height: 60px;
+    background: linear-gradient(95.96deg, #39AB8D -16.11%, #DFE1E3 108.59%);
+    box-shadow: 2px 11px 20px rgba(242, 68, 5, 0.08);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-top: 50px;
+
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.btn a {
+    color: #002A47;
+}
+
 
 
 @media only screen and (max-device-width: 480px) {

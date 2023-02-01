@@ -21,7 +21,7 @@ const Learn = () => {
                     <div className='col-lg-9 '>
                         <div className={styles.aboutContent}>
                             <h4>Liquidity Pool</h4>
-                            <p>Users can earn rewards in the form of tokens, such as Dyleum token $LEUM, for providing liquidity to the market through flexible and adaptable programs that are sustainable, transparent, and fair. Also, Dyleum eliminates the price risks associated with liquidity mining between two coins and uses only stablecoins, simplifies the process and can automatically reinvests daily profits to increase user's balance in liquidity mining.
+                            <p>Users can earn rewards in the form of tokens, such as Dyleum token, for providing liquidity to the market through flexible and adaptable programs that are sustainable, transparent, and fair. Also, Dyleum eliminates the price risks associated with liquidity mining between two coins and uses only stablecoins, simplifies the process and can automatically reinvests daily profits to increase user's balance in liquidity mining.
                             </p>
 
                         </div>
@@ -135,7 +135,7 @@ const Learn = () => {
                         <div className='col-lg-8'>
                             <div className={styles.aboutContent}>
                                 <h4>DApp Evaluation</h4>
-                                <p>Users can discover and access high-quality projects, curated by a community of regulators who vote on cryptocurrency projects using LEUM. The program aims to help users identify the best projects, avoid scams and rug pulls, and make informed decisions by offering transparent and fair evaluations of DApps, and also incentivize regulators to conduct thorough research and make careful decisions when evaluating projects.
+                                <p>Users can discover and access high-quality projects, curated by a community of regulators who vote on cryptocurrency projects using Dyleum token. The program aims to help users identify the best projects, avoid scams and rug pulls, and make informed decisions by offering transparent and fair evaluations of DApps, and also incentivize regulators to conduct thorough research and make careful decisions when evaluating projects.
                                 </p>
 
                             </div>

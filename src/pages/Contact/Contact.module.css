@@ -108,6 +108,10 @@
     outline: none !important;
     border: none !important;
     margin-top: 25px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px !important;
 }
 
 @media only screen and (max-device-width: 480px) {

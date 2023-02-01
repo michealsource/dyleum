@@ -35,7 +35,7 @@ const PlatFormSection = () => {
                         </div>
 
                         <h3 className={styles.tradingH3Text}>24/7 Support</h3>
-                        <p className={styles.platformText}>e are committed to providing the highest quality service, and our team is available 24/7 to ensure that every customer is satisfied with their experience. </p>
+                        <p className={styles.platformText}>We are committed to providing the highest quality service, and our team is available 24/7 to ensure that every customer is satisfied with their experience. </p>
                     </div>
 
                 </div>

@@ -17,6 +17,7 @@ const LearnMore = () => {
 
                     <AppButton
                         title="Learn More"
+                        linkPath="https://dyleum.gitbook.io/"
                     />
 
                 </Col>

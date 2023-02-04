@@ -110,17 +110,20 @@
         font-size: 30px;
         cursor: pointer;
         color: #A3C1FF;
-        width: 30%;
+        width: 40%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -30px;
+        margin-top: -10px;
     }
 
     .mobileFooterLinkResponsivesnes {
         width: 100%;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* background-color: red; */
+        /* display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
 
     }
 }

@@ -42,6 +42,10 @@ const Footer = () => {
                             <FaTwitter className={styles.socialIcon} />
                         </a>
 
+                        <a href="https://discord.gg/4fZPgqxdpE" target="_blank" rel="noopener noreferrer">
+                            <FaDiscord className={styles.socialIcon} />
+                        </a>
+
                         {/* <FaDiscord /> */}
 
                         {/* <FaLinkedin />
@@ -77,6 +81,10 @@ const Footer = () => {
 
                         <a href="https://twitter.com/dyleum_com" target="_blank" rel="noopener noreferrer">
                             <FaTwitter />
+                        </a>
+
+                        <a href="https://discord.gg/4fZPgqxdpE" target="_blank" rel="noopener noreferrer">
+                            <FaDiscord />
                         </a>
                         {/* <FaFacebook /> */}
                         {/* <FaTelegram /> */}

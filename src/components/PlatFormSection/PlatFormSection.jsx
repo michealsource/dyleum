@@ -45,9 +45,8 @@ const PlatFormSection = () => {
                             <img src={three} alt="" className={styles.boxImg1} />
                         </div>
 
-                        <h3 className={styles.tradingH3Text}>24/7 Support</h3>
+                        <h3 className={styles.tradingH3Text}>Smooth Trading</h3>
                         <p className={styles.platformText}>
-                            Smooth Trading
                             We also provide a variety of tools to help users manage their trading portfolios and maximize their investment returns. Our goal is to ensure secure and reliable trades, so you can focus on what matters most - your business.
                         </p>
                     </div>

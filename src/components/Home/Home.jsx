@@ -18,7 +18,7 @@ import NewsLetter from '../newsLetter/newsLetter';
 const Home = () => {
     return (
         <>
-            <Row style={{ width: "100%" }}>
+            <Row style={{ width: "100%", height: "580px" }}>
                 <Col class="col-sm-8"
                     data-aos="fade-down"
                     data-aos-easing="ease-out-cubic"
